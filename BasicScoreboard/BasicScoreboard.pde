@@ -15,7 +15,7 @@ color back2 = color(255);
 color fore2 = color(0);
 
 void setup() {
-  fullScreen();
+  fullScreen(P2D);
   orientation(PORTRAIT);
   imageMode(CENTER);
   st = new Splash();
